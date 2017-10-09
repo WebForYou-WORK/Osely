@@ -1,0 +1,109 @@
+html, body{
+    font-size: 100%;
+	background:	url(../img/fon.png);
+	font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    height: 100px;
+}
+.logo{
+    text-align: center;
+}
+.phone{
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+    .menu-top {
+        background: rgb(247,240,225);
+        
+    }
+    .menu{
+        background: url(../img/patern.png) no-repeat;
+        background-size: cover;
+        }
+    .navbar-default {
+        background: none;
+        border: none;
+       }
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        margin-bottom: 22px;
+      }
+    .navbar .navbar-collapse {
+        text-align: center;
+      }
+    .navbar-default .navbar-nav > li > a {
+        color: black;
+    }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #f89406;
+    }
+    .navbar-nav > li > a {
+        padding: 30px 20px 0;
+    }
+    ul.nav.navbar-nav li a.active {
+        color: #f89406;
+    }
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+        color: #F89422;
+        background-color: transparent;
+    }
+    
+    }
+    /*-- nav-effect --*/
+    nav.cl-effect-13 a {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        outline: none;
+        color: #fff;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 400;
+        text-shadow: 0 0 1px rgba(255,255,255,0.3);
+        font-size: 1em;
+    }
+    /* Effect 13: three circles */
+    .cl-effect-13 a {
+        -webkit-transition: color 0.3s;
+        -moz-transition: color 0.3s;
+        transition: color 0.3s;
+    }
+    
+    .cl-effect-13 a::before {
+        position: absolute;
+        top:90%;
+        left: 50%;
+        color: transparent;
+        content: '•';
+        text-shadow: 0 0 transparent;
+        font-size: 1.2em;
+        -webkit-transition: text-shadow 0.3s, color 0.3s;
+        -moz-transition: text-shadow 0.3s, color 0.3s;
+        transition: text-shadow 0.3s, color 0.3s;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%);
+        pointer-events: none;
+    }
+    
+    .cl-effect-13 a:hover::before,
+    .cl-effect-13 a:focus::before,.cl-effect-13 a.active::before,
+    .cl-effect-13 a.active:focus::before {
+        color: #f89406;
+        text-shadow: 10px 0 #f89406, -10px 0 #f89406;
+    }
+    
+    .cl-effect-13 a:hover,
+    .cl-effect-13 a:focus {
+        color: #ba7700;
+    }
+    /*-- //nav-effect --*/
+    
