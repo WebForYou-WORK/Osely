@@ -1,0 +1,42 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(0, 0, 0, 255);
+	background: url(../img/fon.png);
+}
+/*------------------- HEADER--------------------------- */
+.header{
+	height: 75px;
+	margin-bottom: 10px;
+}
+.phone{
+	padding-left: 130px;
+}
+.logo{
+	margin: auto;
+}
+.seti{
+	margin: 25px auto; 
+	padding-left: 50px;
+}
+.seti a{
+	padding-left: 10px;
+}
+
+/*------------------- /HEADER--------------------------- */
+/*------------------- MENU--------------------------- */
+.navbar-nav {
+	float: none;
+	text-align: center;
+	}
+	.navbar-nav li {
+	float: none;
+	display: inline-block;
+	}
+/*------------------- /MENU--------------------------- */
+/*------------------- SLIDER--------------------------- */
+/*------------------- /SLIDER--------------------------- */
+/*------------------- FOOTER--------------------------- */
+/*------------------- /FOOTER--------------------------- */
+
