@@ -1,17 +1,15 @@
-html, body {
-	margin: 0;
-	padding: 0;
+html, body{
+    font-size: 100%;
+	background:	url(../image/fon.png);
 	font-family: 'Ubuntu', sans-serif;
-	color: rgba(0, 0, 0, 255);
-	background: url(../img/fon.png);
 }
-/*------------------- HEADER--------------------------- */
 .header{
 	height: 75px;
 	margin-bottom: 10px;
 }
 .phone{
-	padding-left: 130px;
+    padding-left: 130px;
+    color: rgba(0, 0, 0, 255);
 }
 .logo{
 	margin: auto;
@@ -34,91 +32,160 @@ html, body {
 			max-width: 8%;
 		}
 	}
-/*------------------- /HEADER--------------------------- */
-/*------------------- MENU--------------------------- */
-.menu {
-	height: 70px;
-	background: rgb(247, 240, 225)
-   }
-.navbar-nav {
-	float: none;
-	text-align: center;
-	font-family: 'Ubuntu:700', sans-serif;
-	font-size: 18px;
-	}
-.navbar-nav li {
-	float: none;
-	display: inline-block;
-	}
-	.navbar-default .navbar-nav > li > a {
-		color: black;
-	}
-	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-		color: #f89406;
-	}
-	.navbar-nav > li > a {
-		padding: 30px 20px 0;
-	}
-	ul.nav.navbar-nav li a.active {
-		color: #f89406;
-	}
-	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-		color: #F89422;
-		background-color: transparent;
-	}
-	
-	}
-	/*-- nav-effect --*/
-	nav.cl-effect-13 a {
-		position: relative;
-		display: inline-block;
-		margin: 0;
-		outline: none;
-		color: #fff;
-		text-decoration: none;
-		text-transform: capitalize;
-		font-weight: 400;
-		text-shadow: 0 0 1px rgba(255,255,255,0.3);
-		font-size: 1em;
-	}
-	/* Effect 13: three circles */
-	.cl-effect-13 a {
-		-webkit-transition: color 0.3s;
-		-moz-transition: color 0.3s;
-		transition: color 0.3s;
-	}
-	.cl-effect-13 a::before {
-		position: absolute;
-		top:90%;
-		left: 50%;
-		color: transparent;
-		content: '•';
-		text-shadow: 0 0 transparent;
-		font-size: 1.2em;
-		-webkit-transition: text-shadow 0.3s, color 0.3s;
-		-moz-transition: text-shadow 0.3s, color 0.3s;
-		transition: text-shadow 0.3s, color 0.3s;
-		-webkit-transform: translateX(-50%);
-		-moz-transform: translateX(-50%);
-		transform: translateX(-50%);
-		pointer-events: none;
-	}
-	
-	.cl-effect-13 a:hover::before,
-	.cl-effect-13 a:focus::before,.cl-effect-13 a.active::before,
-	.cl-effect-13 a.active:focus::before {
-		color: #f89406;
-		text-shadow: 10px 0 #f89406, -10px 0 #f89406;
-	}
-	
-	.cl-effect-13 a:hover,
-	.cl-effect-13 a:focus {
-		color: #ba7700;
-	}	
 
-/*------------------- /MENU--------------------------- */
-/*------------------- SLIDER--------------------------- */
-/*------------------- /SLIDER--------------------------- */
-/*------------------- FOOTER--------------------------- */
-/*------------------- /FOOTER--------------------------- */
+/*-- /header --*/
+/*-- menu --*/
+.menu-top {
+    background: rgb(247,240,225);
+    height: 70px;
+    margin-bottom: 20px;
+  }
+.menu{
+    background: url(../image/patern.png) no-repeat;
+    background-size: cover;
+    }
+.navbar-default {
+    background: none;
+    border: none;
+   }
+
+.navbar-nav {
+    margin-bottom: 20px;
+    float: none;
+    text-align: center;
+    font-family: 'Ubuntu:700', sans-serif;
+    font-size: 18px;
+  }
+.navbar-nav li {
+float: none;
+display: inline-block;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #f89406;
+}
+.navbar-nav > li > a {
+    padding: 30px 20px 0;
+   
+}
+ul.nav.navbar-nav li a.active {
+    color: #f89406;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #F89422;
+    background-color: transparent;
+}
+
+}
+/*-- nav-effect --*/
+nav.cl-effect-13 a {
+	position: relative;
+    display: inline-block;
+    margin: 0;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1em;
+}
+/* Effect 13: three circles */
+.cl-effect-13 a {
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cl-effect-13 a::before {
+	position: absolute;
+	top:90%;
+	left: 50%;
+	color: transparent;
+	content: '•';
+	text-shadow: 0 0 transparent;
+	font-size: 1.2em;
+	-webkit-transition: text-shadow 0.3s, color 0.3s;
+	-moz-transition: text-shadow 0.3s, color 0.3s;
+	transition: text-shadow 0.3s, color 0.3s;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+
+.cl-effect-13 a:hover::before,
+.cl-effect-13 a:focus::before,.cl-effect-13 a.active::before,
+.cl-effect-13 a.active:focus::before {
+	color: #f89406;
+    text-shadow: 10px 0 #f89406, -10px 0 #f89406;
+}
+
+.cl-effect-13 a:hover,
+.cl-effect-13 a:focus {
+	color: #ba7700;
+}
+/*-- //nav-effect --*/
+/*-- /menu --*/
+/*-- slider --*/
+body { font-family: 'Ubuntu', sans-serif;; color: #fff; }
+#header-carousel .carousel-inner .item { background-size: cover;
+  background-position: center; width: 100%; height: 500px;}
+.carousel-control i { margin-top: 170px; }
+.slide { background: #dadada; width: 100%; height: 500px; }
+.title { 
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  text-shadow: 0px 3px 5px rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.23);
+}
+.text { max-width: 640px; margin: 0 auto; padding-top: 260px; opacity: 0; text-shadow: 0px 1px 2px rgba(0,0,0,2.0);}
+.text p{
+    text-align: center;
+    margin: -30px 0px;
+}
+.title h2{
+   padding-bottom: 12px;
+}
+.more { 
+  background: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+  line-height: 4; 
+  -webkit-box-shadow: 0px 3px 0px 0px #d98400;
+  -moz-box-shadow:    0px 3px 0px 0px #d98400;
+  box-shadow:         0px 3px 0px 0px #d98400;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.more:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow:    none;
+  box-shadow:         none;
+  margin-bottom: -3px;
+    border: 2px solid #ef7a24;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 15px;
+    background: rgba(239, 122, 36, 0.61);
+}
+.slide, .title, .text { -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+/*-- /slider --*/
 
