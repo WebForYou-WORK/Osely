@@ -74,7 +74,7 @@ ul.nav.navbar-nav li a.active {
     background-color: transparent;
 }
 
-}
+
 /*-- nav-effect --*/
 nav.cl-effect-13 a {
 	position: relative;
@@ -125,6 +125,22 @@ nav.cl-effect-13 a {
 }
 /*-- //nav-effect --*/
 /*-- /menu --*/
+.onas{
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 2px 0px 2px #d98400;
+}
+.onas h1{
+    font-family: 'Ubunt', sans-serif;
+   }
+@media (max-width: 768px) {
+	.onas h1 {
+        font-size: 130%;
+        margin-top: -20px;	
+        margin-bottom: -10px;
+		}
+	}
 /*-- slider --*/
 body { font-family: 'Ubuntu', sans-serif;; color: #fff; }
 #header-carousel .carousel-inner .item { background-size: cover;
@@ -135,8 +151,7 @@ body { font-family: 'Ubuntu', sans-serif;; color: #fff; }
     background-position:center; 
     background-repeat:no-repeat;
     background-size: 100%; 
-    background-image
-}
+  }
 .title { 
   font-size: 300%;
   font-weight: bold;
